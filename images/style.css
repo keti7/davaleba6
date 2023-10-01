@@ -1,0 +1,38 @@
+p{
+    margin: 10px;
+    font-size:larger;
+    font-style: italic;
+}
+.product-first{
+    display: inline-block;
+    background-color:palevioletred;
+    padding: 20px;
+}
+.product-second{
+    display: inline-block;
+    background-color: palevioletred;
+    padding: 20px;
+}   
+
+.product-third{
+    display: inline-block;
+    background-color:palevioletred;
+    padding: 20px;
+
+}
+.product-fourth{
+    display:inline-block;
+    background-color:palevioletred;
+    padding: 20px;
+    }
+.product-fifth{
+    display:inline-block;
+    background-color:palevioletred;
+    padding: 20px;    
+}
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
